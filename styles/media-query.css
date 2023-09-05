@@ -16,6 +16,7 @@
     }
     .we-gamer-container{
         flex-direction: column;
+        
     }
     .we-gamer-img img{
         width: 100%;
@@ -35,5 +36,52 @@
     }
     .play-container{
         flex-direction: column;
+        padding: 20px;
+        margin: 0;
+        margin-top: 40px;
     }
+    .play-info p{
+        margin: 20px 0px;
+    }
+    .footer-info{
+        padding: 20px;
+        margin: 0px;
+    }
+    .footer-name{
+        display: grid;
+        grid-template-columns: repeat(3, 2fr);
+        padding-top: 30px;
+        gap: 30px;
+        margin: 0px;
+}
+.social-icon{
+    display: grid;
+    grid-template-columns: repeat(3 , 2fr);
+    gap: 30px;
+    margin:0 100px;
+    padding-top: 30px;
+}
+.condition{
+    display: grid;
+    grid-template-columns: repeat(2 ,2fr);
+    margin: 0px;
+    padding-top: 30px;
+    gap: 30px;
+
+}
+.copyright{
+    padding-top: 30px;
+}
+.main-container{
+    margin: 0;
+    gap: 40px;
+    padding: 30px 5px;
+}
+.allgames-container-1{
+    grid-template-columns: repeat(3, 2fr);
+}
+.all-games-container-2{
+    grid-template-columns: repeat(3, 2fr);
+}
+        
 }
