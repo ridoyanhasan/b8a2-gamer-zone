@@ -1,0 +1,18 @@
+@media screen and (max-width:576px) {
+    .nav-container{
+        flex-direction: column;
+        background: none;
+        box-shadow: none;
+    }
+    .nav-info{
+        flex-direction: column;
+    }
+    .banner-container{
+        flex-direction: column;
+        margin-top: 20px;
+        fl
+    }
+    .banner-img img{
+        margin: auto;
+    }
+}
